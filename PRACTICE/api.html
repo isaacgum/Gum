@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Fetch Example</title>
+        <script>
+            function fetchToDo(){
+                fetch('https://jsonplaceholder.typicode.com/todos/1')
+                .then(response => response.text())
+                .then(text => {document.getElementById("fetch").innerHTML=text})
+            }
+        </script>
+    </head>
+    <body>
+        <button onclick="fetchToDo()">Fetch ToDo</button>
+        <p id = "fetch"></p>
+    </body>
+</html>
