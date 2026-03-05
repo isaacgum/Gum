@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>
+            Fresh Food for All
+        </title>
+        <link rel="stylesheet" href="login.css"> 
+        <!-- <script src="registrationValidation.js"></script> -->
+    </head>
+    <body>
+        <header>LOGIN</header>
+        <nav>
+            <ul class="navlist">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="registration.html">Register</a></li>
+                <li><a href="help.html">Help</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <form class="center" novalidate>
+                    <!-- user enters email -->
+                    <label class="textinput" for"emai">email</label>
+                    <input type="email" id="email" name="email" required maxlength="50"><br><br>
+
+                    <!-- enter password-->
+                     <label clss="textinput" for "password">Password</label>
+                     <input type="password" id="password" name="password" required minlength="8"><br><br>
+
+                     <!-- login button -->
+                      <input type="button" id="button" value="Login" onclick="Login()">
+
+                </form>
+            </section>
+        </main>
+    </body>
+
+</html>

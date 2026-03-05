@@ -1,0 +1,88 @@
+body{
+    font-family: "Lato", sans-serif;
+    max-width: 75rem;
+    margin: auto;
+    height: 100vh;
+}
+
+header{
+    background-image:url(SharingFood.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+    height:200px;
+    width: 100%;
+    margin: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;   /* vertical center */
+    align-items: center;       /* horizontal center */
+    box-sizing: border-box;
+    border-bottom: 0.5rem solid;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(201, 197, 176);
+                 /* full viewport height */
+    background-image: url(photo.jpg);
+    background-size: contain;
+    background-position: center; 
+}
+
+/* aside,
+section {
+    width: auto;
+    min-height: auto;
+}
+.search {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+} */
+
+.center {
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    border: 3px solid rgb(0, 140, 0);
+    padding: 10px;
+  }
+
+ ul.navlist {
+    list-style-type: none;
+    margin: 14px 16px;
+    padding: 0px;
+    background-color: #854949;
+    width: 100px;
+    text-align: center;
+}
+
+ul.navlist li {
+    display: block;
+    /* padding: 0px; */
+    padding-bottom: 10px;
+
+}
+
+ul.navlist li a {
+    display: block;
+    color: rgb(25, 64, 144);
+    /* padding: 100px 50px; */
+    text-decoration: none;
+}
+
+ul.navlist li a:hover {
+    background-color: #670909;
+}
+
+navlist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
